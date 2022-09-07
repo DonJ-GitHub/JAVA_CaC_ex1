@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;  /*aca le digo que es flexible */
+    /*flex-wrap:wrap; /*wrap*/  /*envoltura*/ 
+    /*background-color: rgb(67, 233, 205);*/
+    
+    flex-direction: row;
+    
+    
+  }
+ 
+  .flex-container > div {
+    background-color: red;
+    width: 20vw;
+    min-height: 50px;
+    max-height: 20vh;
+    margin: 10px;
+    text-align: left ;
+   /* line-height: 200px;*/
+    font-size: 5vh;
+    color: yellow; 
+  }
+  #dos{ 
+    color: white; 
+    background-color: black;
+  }
